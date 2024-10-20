@@ -1,33 +1,6 @@
 https://www.geeksforgeeks.org/problems/subarray-ra nge-with-given-sum2804/1
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Solution 1-:
 Steps-:
 1)Using 2 for loops
