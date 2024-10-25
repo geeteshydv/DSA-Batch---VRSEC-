@@ -46,7 +46,7 @@ public List<List<String>> groupAnagrams(String[] strs)
             // Add the original string to its corresponding group
             if (!map.containsKey(sortedStr)) {
                 map.put(sortedStr, new ArrayList<>());
-            }
+            }  
             map.get(sortedStr).add(str);
         }
 

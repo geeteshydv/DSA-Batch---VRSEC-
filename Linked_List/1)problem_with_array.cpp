@@ -28,4 +28,3 @@ sequences[]={{5,10,15,20},
 
 To store these sequences using array always need a extra space.
 but in linked list not needed.
-

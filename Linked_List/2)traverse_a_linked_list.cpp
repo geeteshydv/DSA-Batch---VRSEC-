@@ -57,6 +57,31 @@ int main()
   return 0;
 }
 
+
+
+Python Code-:
+
+class Node:
+    def __init__(self, x):
+        self.data = x
+        self.next = None
+
+def print_all(head):
+    current = head
+    while current is not None:
+        print(current.data, end=' ')
+        current = current.next
+    print()  # for a new line after printing all elements
+
+if __name__ == "__main__":
+    head = Node(10)
+    head.next = Node(20)
+    head.next.next = Node(30)
+    print_all(head)
+
+
+
+
 Solution 2 -:
 
 Recursive solution-:
